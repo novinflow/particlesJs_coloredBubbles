@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//fonts
+
+@font-face {
+  font-family: 'segoepr';
+  src: url('./assets/fonts/segoepr.woff') format('woff'),
+    url('./assets/fonts/segoepr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//general styles
+body {
+  font-family: segoepr;
+  padding: 0px !important;
+  scroll-behavior: smooth;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+//Color Mods
